@@ -54,13 +54,21 @@ article {
     display: flex;
     flex-direction: row;
     /*justify-content: space-between;*/
+    margin-bottom: 30px;
 }
 
 .section-header {
     width: 33%;
     text-align: right;
-    border-right: 5px solid black;
+    vertical-align: top;
+    border-right: 5px solid var(--darkest);
     padding-right: 10px;
+}
+
+.section-header h2 {
+    color: var(--darkest);
+    margin: 0;
+    font-size: 200%;
 }
 
 .section-contents {
@@ -68,4 +76,16 @@ article {
     padding: 10px;
     margin-left: 10px;
     background-color: var(--dark);
+    color: var(--lighter);
+}
+
+
+footer {
+    background-color: var(--light);
+    border: 10px solid var(--darkest);
+    border-radius: 0px 30px 0px 30px;
+    padding: 10px;
+    color: var(--darkest);
+    display: flex;
+    justify-content: space-between;
 }
