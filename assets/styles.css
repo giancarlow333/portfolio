@@ -2,9 +2,10 @@
 /* Color scheme: http://paletton.com/#uid=23u0u0kfBZg1j+Z9w+mkGXdppSu */
     --base-color: #87CFFA;
     --light: #B6E3FD;
-    --lightest: #F5FBFF;
+    --lighter: #F5FBFF;
     --dark: #3AA6E6;
-    --darkest: #067CC3;
+    --darker: #067CC3;
+    --darkest: #43677d;
 }
 
 * {
@@ -12,13 +13,22 @@
 }
 
 body {
-    background-color: var(--lightest);
+    background-color: var(--lighter);
 }
 
 header {
     background-color: var(--light);
-    border: 10px solid var(--dark);
+    border: 10px solid var(--darkest);
     border-radius: 30px 0px 30px 0px;
     padding: 10px;
     color: var(--darkest);
+}
+
+nav {
+    background-color: var(--dark);
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
 }
