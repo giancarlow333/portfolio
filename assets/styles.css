@@ -137,6 +137,15 @@ article {
     margin: 0;
 }
 
+/* Make the cards glow */
+.card {
+    transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 8px var(--lighter), 0 0 15px var(--lighter);
+}
+
 /* Styles for the footer of the website */
 footer {
     background-color: var(--light);
