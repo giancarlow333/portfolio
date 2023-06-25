@@ -110,6 +110,33 @@ article {
     grid-template-columns: repeat(3, 1fr);
 }
 
+/* .card class
+ * This is a container for the project image and all related text
+ */
+.card {
+    border: 5px solid var(--light);
+    margin: 5px;
+    background-color: var(--darkest);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-text {
+    padding: 5px;
+    color: var(--lighter);
+}
+
+.card-text h3 {
+    font-size: 150%;
+    margin: 0.1em 0 0.2em 0;
+}
+
+.card-text p {
+    margin: 0;
+}
+
 /* Styles for the footer of the website */
 footer {
     background-color: var(--light);
