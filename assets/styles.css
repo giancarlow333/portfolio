@@ -45,6 +45,15 @@ nav ul li {
     margin: 0 15px 0 15px;
 }
 
+.header-image {
+    background-image: url("./img/pexels-instawalli-169789.jpg");
+    height: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
 a:link, a:visited {
     color: var(--lighter);
     text-decoration: none;
