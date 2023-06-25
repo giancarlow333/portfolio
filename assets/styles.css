@@ -1,3 +1,4 @@
+/* Various CSS variables */
 :root {
 /* Color scheme: http://paletton.com/#uid=23u0u0kfBZg1j+Z9w+mkGXdppSu */
     --base-color: #87CFFA;
@@ -8,14 +9,17 @@
     --darkest: #43677d;
 }
 
+/* Assign uniform font scheme to all elements */
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* A light color background for the whole body of the site */
 body {
     background-color: var(--lighter);
 }
 
+/* Styles for the header of the website */
 header {
     background-color: var(--light);
     border: 10px solid var(--darkest);
@@ -55,11 +59,18 @@ nav ul li {
     background-position: center;
 }
 
+/* Hyperlink styles
+ * For the sake of minimalism, it's not clear that they ARE hyperlinks
+ * It's meant to be clear by context
+ */
 a:link, a:visited {
     color: var(--lighter);
     text-decoration: none;
 }
 
+/* Style for each major group, about/projects/contact
+ * All info for those subjects are within an <article>
+ */
 article {
     display: flex;
     flex-direction: row;
@@ -67,6 +78,9 @@ article {
     margin-bottom: 30px;
 }
 
+/* Text for identifying each <article>
+ * Appears as large text to the left of the actual contents
+ */
 .section-header {
     width: 33%;
     text-align: right;
@@ -81,6 +95,7 @@ article {
     font-size: 200%;
 }
 
+/* The actual contents for each <article> go here */
 .section-contents {
     width: 67%;
     padding: 10px;
@@ -89,7 +104,13 @@ article {
     color: var(--lighter);
 }
 
+/* Styles the grid of project images, as a flex grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
+/* Styles for the footer of the website */
 footer {
     background-color: var(--light);
     border: 10px solid var(--darkest);
