@@ -137,6 +137,7 @@ article {
     margin: 0;
 }
 
+/* This style makes the first card larger than the rest */
 .starter-card {
     grid-column-start: span 3;
 }
