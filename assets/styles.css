@@ -161,3 +161,45 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+/* RESPONSIVE DESIGN SECTION
+ * Resize/position elements on smaller screens
+ */
+@media screen and (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .starter-card {
+        grid-column-start: span 2;
+    }
+}
+
+/* REALLY small screens */
+@media screen and (max-width: 611px) {
+    .project-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .starter-card {
+        grid-column-start: span 1;
+    }
+    header, nav {
+        flex-direction: column;
+    }
+    article {
+        flex-direction: column;
+    }
+    .section-header {
+        border-bottom: 5px solid var(--darkest);
+        padding-bottom: 10px;
+        width: 90%;
+        text-align: left;
+        vertical-align: top;
+        border-right: none;
+        padding-right: none;
+    }
+    .section-contents {
+        width: 90%;
+        margin-left: none;
+        margin-top: 10px;
+    }
+}
