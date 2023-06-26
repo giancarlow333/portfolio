@@ -137,6 +137,10 @@ article {
     margin: 0;
 }
 
+.starter-card {
+    grid-column-start: span 3;
+}
+
 /* Make the cards glow */
 .card {
     transition: all 0.5s ease-in-out;
