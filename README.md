@@ -35,10 +35,10 @@ The deployed website should look like this:
 
 ## Sources
 
-Header image source is [pexels.com][https://www.pexels.com/photo/timelapse-photography-of-stars-at-night-169789/], which is free and does not require attribution.  For the record, though, the photographer goes by the handle [@instawally][https://www.pexels.com/@instawally/].
+Header image source is [pexels.com](https://www.pexels.com/photo/timelapse-photography-of-stars-at-night-169789/), which is free and does not require attribution.  For the record, though, the photographer goes by the handle [@instawally](https://www.pexels.com/@instawally/).
 
-The placeholder image is from [Wikipedia][https://en.wikipedia.org/wiki/File:Placeholder_view_vector.svg] and is public domain.
+The placeholder image is from [Wikipedia](https://en.wikipedia.org/wiki/File:Placeholder_view_vector.svg) and is public domain.
 
-The color scheme was designed via [paletton.com][http://paletton.com/#uid=23u0u0kfBZg1j+Z9w+mkGXdppSu] and [color-hex.com][https://www.color-hex.com/color/87cefa].
+The color scheme was designed via [paletton.com](http://paletton.com/#uid=23u0u0kfBZg1j+Z9w+mkGXdppSu) and [color-hex.com](https://www.color-hex.com/color/87cefa).
 
-Some of the code in [styles.css][./assets/styles.css] was repurposed from the [css-snippe-cheatsheet-project][https://github.com/giancarlow333/css-snippet-cheat-sheet].
+Some of the code in [styles.css](./assets/styles.css) was repurposed from the [css-snippe-cheatsheet-project](https://github.com/giancarlow333/css-snippet-cheat-sheet).
