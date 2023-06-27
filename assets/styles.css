@@ -68,6 +68,14 @@ a:link, a:visited {
     text-decoration: none;
 }
 
+/* Hyperlink styles for external links
+ * Add back the underline for these links, in cases where it MUST be
+ * clear that it's a hyperlink.
+ */
+a.external-link:link, a.external-link:visited {
+	text-decoration: underline;
+}
+
 /* Style for each major group, about/projects/contact
  * All info for those subjects are within an <article>
  */
