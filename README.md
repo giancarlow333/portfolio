@@ -29,7 +29,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 
-The deployed website should look like this:
+The deployed website should look something like this:
 
 ![portfolio demo](./assets/img/portfolio_demo.png)
 
@@ -41,4 +41,4 @@ The placeholder image is from [Wikipedia](https://en.wikipedia.org/wiki/File:Pla
 
 The color scheme was designed via [paletton.com](http://paletton.com/#uid=23u0u0kfBZg1j+Z9w+mkGXdppSu) and [color-hex.com](https://www.color-hex.com/color/87cefa).
 
-Some of the code in [styles.css](./assets/styles.css) was repurposed from the [css-snippe-cheatsheet-project](https://github.com/giancarlow333/css-snippet-cheat-sheet).
+Some of the code in [styles.css](./assets/styles.css) was repurposed from the [css-snippet-cheatsheet-project](https://github.com/giancarlow333/css-snippet-cheat-sheet).
