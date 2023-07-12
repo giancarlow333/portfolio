@@ -33,6 +33,10 @@ The deployed website should look something like this:
 
 ![portfolio demo](./assets/img/portfolio_demo.png)
 
+## Deployment
+
+The deployed website is [here](https://giancarlow333.github.io/portfolio/).
+
 ## Sources
 
 Header image source is [pexels.com](https://www.pexels.com/photo/timelapse-photography-of-stars-at-night-169789/), which is free and does not require attribution.  For the record, though, the photographer goes by the handle [@instawally](https://www.pexels.com/@instawally/).
